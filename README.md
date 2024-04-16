@@ -4,7 +4,7 @@
 
 Our group created an ETL pipeline and SQL database schema. With Jupyter Notebooks, we used Python to import our data, export the cleaned data into separate tables, design table schema for the database, and import the data into PostgreSQL using pgAdmin.
 
-In addition, we built an API using Flask and SQLAlchemy that can allow the data from SQL to be queried into python.
+In addition, used psycoPpg that can allow the data from SQL to be queried into python.
 
 ## About The Data
 
@@ -14,7 +14,7 @@ The dataset also contains the following for each song:
 
 - Number of times the song is in playlists: Spotify, Apple, Deezer
 - The rank of the song in charts: Spotify, Apple, Deezer Shazam
-- Tempo (beats per minute), key, and mode (major or minor)s
+- Tempo (beats per minute), key, and mode (major or minor)
 - Musical Characteristics: Danceability, valence, energy, acousticness, instrumentalness, liveness, speechiness
 
 ## Importing and Cleaning
@@ -60,7 +60,9 @@ We created the database structure that we outlined in our ERD. The csv files wer
 ![Image](Project-3%20Spotify/Pictures/track1.png)
 ![Image](Project-3%20Spotify/Pictures/track2.png)
 
-## Developing the API with Flask and SQLAlchemy
+## Using psycopg2 to Query Data from our Database
+
+Using psycopg2, we ran query statements that retreived data from our SQL database. We remade our initial dataframes from these query statements. This allowed us to check that the tables in our database match our cleaned data from our ETL pipeline.
 
 ## Ethical Considerations
 
@@ -74,7 +76,7 @@ While our group does not foresee serious ethical implications, we do acknowledge
 
 - Because this dataset deals with current popular music, possible biases in the data could also be a reflection of the music industry as a whole.
 
-- Streaming services may use payola type arrangements that could falsely elevate certain titles or tracks to the attention of users of their service, and then since they are elevated they may become more popular. We do not have any knowledge of proof of the use of payola on any of these services, but if it was used that could affect rankings.
+- Streaming services may use payola type arrangements that could falsely elevate certain titles or tracks to the attention of users of their service, and then since they are elevated they may become more popular. We do not have any knowledge of proof of the use of payola on any of these services, but if they were used, that could affect rankings.
 
 ## References
 
