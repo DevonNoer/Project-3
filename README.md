@@ -4,7 +4,24 @@
 
 Our group created an ETL pipeline and SQL database schema. With Jupyter Notebooks, we used Python to import our data, export the cleaned data into separate tables, design table schema for the database, and import the data into PostgreSQL using pgAdmin.
 
-In addition, used psycoPpg that can allow the data from SQL to be queried into python.
+In addition, used psycopg2 that can allow the data from SQL to be queried into python.
+
+## What this Repository Contains
+
+These are the contents of our repository:
+
+- README.md  - Our readme file
+- .gitignore - Our gitignore file
+
+- Project-3 Spotify - project files
+
+  - Code
+    - cleaning.ipynb - Our ETL pipeline for processing the dataset into separate tables.
+    - fetching_data.ipynb - Query statements we ran with psycopg2
+    - spotify_schedma.sql - Our SQL table schema
+  - Outputs - The cleaned tables from our ETL pipeline.
+  - Pictures - Screenshots of our ERD and completed database tables.
+  - Resources - The original dataset we used, as a csv file.
 
 ## About The Data
 
