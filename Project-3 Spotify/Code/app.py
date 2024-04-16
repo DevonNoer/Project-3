@@ -7,23 +7,14 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify
 import datetime as dt
+import psycopg2
 
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:////Users/ezrellemyhre-hager/Documents/GitHub/sqlalchemy-challenge/SurfsUp/Resources/hawaii.sqlite")
 
-# reflect an existing database into a new model
-Base = automap_base()
-
-# reflect the tables
-Base.prepare(autoload_with=engine)
-
-# Save references to each table
-measurement = Base.classes.measurement
-station = Base.classes.station
-
-# Create our session (link) from Python to the DB
+def connect_to_db():
+    return psycopg2.connect(host='localhost', dbname='spotify_db', user='postgres', password='postgres') # put password value in a config.py file
 
 
 #################################################
@@ -31,6 +22,7 @@ station = Base.classes.station
 #################################################
 
 app = Flask(__name__)
+
 
 #################################################
 # Flask Routes
