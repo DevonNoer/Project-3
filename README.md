@@ -97,5 +97,5 @@ While our group does not foresee serious ethical implications, we do acknowledge
 
 ## References
 
-Top Spotify Songs by Kumar Arnav on Kaggle: https://www.kaggle.com/datasets/arnavvvvv/spotify-music
-pyjanitor Documentation: https://pyjanitor-devs.github.io/pyjanitor/api/functions/
+- Top Spotify Songs by Kumar Arnav on Kaggle: https://www.kaggle.com/datasets/arnavvvvv/spotify-music
+- pyjanitor Documentation: https://pyjanitor-devs.github.io/pyjanitor/api/functions/
