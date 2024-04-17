@@ -4,7 +4,7 @@
 
 Our group created an ETL pipeline and SQL database schema. With Jupyter Notebooks, we used Python to import our data, export the cleaned data into separate tables, design table schema for the database, and import the data into PostgreSQL using pgAdmin.
 
-In addition, used psycopg2 that can allow the data from SQL to be queried into python.
+In addition, used psycopg2 that can allow the data from SQL to be queried into Pandas and a Flask API.
 
 ## What this Repository Contains
 
@@ -16,6 +16,7 @@ These are the contents of our repository:
 - Project-3 Spotify - project files
 
   - Code
+    - app.py - Our Flask API code, to access the data in JSON format from our Postgres Database.
     - cleaning.ipynb - Our ETL pipeline for processing the dataset into separate tables.
     - fetching_data.ipynb - Query statements we ran with psycopg2
     - spotify_schedma.sql - Our SQL table schema
@@ -84,6 +85,8 @@ Using psycopg2, we ran query statements that retreived data from our SQL databas
 ## Flask API
 
 ![Image](Project-3%20Spotify/Pictures/Flask%20API%20Welcom%20Screen.png)
+
+psycopg2 needs to be correctly installed on your device to use the Flask API correctly.
 
 ## Ethical Considerations
 
