@@ -81,6 +81,10 @@ We created the database structure that we outlined in our ERD. The csv files wer
 
 Using psycopg2, we ran query statements that retreived data from our SQL database. We remade our initial dataframes from these query statements. This allowed us to check that the tables in our database match our cleaned data from our ETL pipeline.
 
+## Flask API
+
+
+
 ## Ethical Considerations
 
 While our group does not foresee serious ethical implications, we do acknowledge possible biases that could be in the data.
