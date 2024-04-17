@@ -107,3 +107,4 @@ While our group does not foresee serious ethical implications, we do acknowledge
 - Top Spotify Songs by Kumar Arnav on Kaggle: https://www.kaggle.com/datasets/arnavvvvv/spotify-music
 - pyjanitor Documentation: https://pyjanitor-devs.github.io/pyjanitor/api/functions/
 - pyscopg2 Documentation: https://pypi.org/project/psycopg2/
+- Flask Documentation: https://flask.palletsprojects.com/en/3.0.x/
