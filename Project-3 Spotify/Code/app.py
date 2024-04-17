@@ -91,6 +91,9 @@ def get_songs_by_date_range(start_date, end_date):
     # Convert the JSON string to a dictionary
     songs_dict = json.loads(songs_json)
 
+    # Close database connection
+    connection.close()
+
     # Return the pretty-printed JSON string using jsonify
     return jsonify(songs_dict)
 
