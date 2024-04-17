@@ -11,7 +11,7 @@ app = Flask(__name__)
 def welcome():
     welcome_message = """
     <h1>Welcome to the Spotify ETL API!</h1>
-    <p>This API provides JSON data for each table in the database.</p>
+    <p>This API provides various JSON data for each table in our spotify database. Also some extra routes to show other functionalities.</p>
     <h2>Available Routes:</h2>
     <ul>
         <li><a href="/charts">/charts</a>: Returns JSON data for the charts table.</li>
@@ -19,7 +19,7 @@ def welcome():
         <li><a href="/music_characteristics">/music_characteristics</a>: Returns JSON data for the music_characteristics table.</li>
         <li><a href="/playlist">/playlist</a>: Returns JSON data for the playlist table.</li>
         <li><a href="/track">/track</a>: Returns JSON data for the track table.</li>
-        <li>/songs/<start_date>/<end_date></a>: Returns JSON data for the songs released in a date range. Ex. /songs/2021-01-01/2022-01-01 for the songs released in 2021.</li>
+        <li><a href="/songs/2021-01-01/2022-01-01">/songs/start_date/end_date</a>: Returns JSON data for the songs released in a date range. Ex. /songs/2021-01-01/2022-01-01 for the songs released in 2021.</li>
     </ul>
     """
     return welcome_message
