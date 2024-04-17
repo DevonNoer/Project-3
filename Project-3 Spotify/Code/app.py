@@ -19,6 +19,7 @@ def welcome():
         <li><a href="/music_characteristics">/music_characteristics</a>: Returns JSON data for the music_characteristics table.</li>
         <li><a href="/playlist">/playlist</a>: Returns JSON data for the playlist table.</li>
         <li><a href="/track">/track</a>: Returns JSON data for the track table.</li>
+        <li>/songs/<start_date>/<end_date></a>: Returns JSON data for the songs released in a date range. Ex. /songs/2021-01-01/2022-01-01 for the songs released in 2021.</li>
     </ul>
     """
     return welcome_message
