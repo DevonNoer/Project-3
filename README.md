@@ -83,7 +83,7 @@ Using psycopg2, we ran query statements that retreived data from our SQL databas
 
 ## Flask API
 
-
+![Image](Project-3%20Spotify/Pictures/Flask%API%Welcom%Screen.png)
 
 ## Ethical Considerations
 
