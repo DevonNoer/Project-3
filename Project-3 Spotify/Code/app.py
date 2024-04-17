@@ -4,7 +4,6 @@ import pandas.io.sql as psql
 import pandas as pd
 import json 
 
-
 app = Flask(__name__)
 
 @app.route('/')
