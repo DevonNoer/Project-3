@@ -100,7 +100,8 @@ While our group does not foresee serious ethical implications, we do acknowledge
 
 - Because this dataset deals with current popular music, possible biases in the data could also be a reflection of the music industry as a whole.
 
-- Streaming services may use payola type arrangements that could falsely elevate certain titles or tracks to the attention of users of their service, and then since they are elevated they may become more popular. We do not have any knowledge of or proof of the use of payola on any of these services, but if they were used, that could affect rankings.
+- Streaming services may use payola type arrangements that could falsely elevate certain titles or tracks to the attention of users of their service, and then since they are elevated they may become more popular. We do not have any knowledge of or proof of the use of payola on any of these services, but if they were used, that could affect rankings. [https://bigthink.com/the-present/is-spotify-spying-on-you/ ]
+  
 
 ## References
 
