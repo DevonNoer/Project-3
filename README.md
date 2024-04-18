@@ -1,5 +1,12 @@
 # Popular Spotify Songs
 
+## Contributors
+
+[Christopher Loch](https://github.com/CONTEMPL8git)<br>
+[Devon Noer](https://github.com/DevonNoer)<br>
+[Ezrelle Myhre-Hager](https://github.com/myhre062)<br>
+[Kolton Ascheman](https://github.com/K01t0N) <br>
+
 ## Introduction
 
 Our group created an ETL pipeline and SQL database schema. With Jupyter Notebooks, we used Python to import our data, export the cleaned data into separate tables, design table schema for the database, and import the data into PostgreSQL using pgAdmin.
